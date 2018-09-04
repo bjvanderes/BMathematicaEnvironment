@@ -1,0 +1,3 @@
+[submodule "Packages/b3m2a1/mathematica-tools"]
+	path = Packages/b3m2a1/mathematica-tools
+	url = https://github.com/b3m2a1/mathematica-tools.git
