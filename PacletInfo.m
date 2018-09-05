@@ -13,6 +13,9 @@ Paclet[
      	"Prepend" -> True},
     	{"Resource",
      	"Root" -> "Resources",
-     	"Resources" -> {"Templates"}}
+     	"Resources" -> {
+     		"Templates",
+     		"Github",
+     		{"b3m2a1-tools", "Github/b3m2a1/mathematica-tools"}}}
     }
  ]

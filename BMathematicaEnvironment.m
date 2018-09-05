@@ -21,7 +21,7 @@
 
 (* ::Input::Initialization:: *)
 Beep[];
-$TestVar="test1";
+$TestVar=FilePacletResource["BMathematicaEnvironment", "b3m2a1-tools"];
 
 
 

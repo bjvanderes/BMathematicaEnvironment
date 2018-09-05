@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      6787,        174]
-NotebookOptionsPosition[      5265,        139]
-NotebookOutlinePosition[      5743,        157]
-CellTagsIndexPosition[      5700,        154]
+NotebookDataLength[     10312,        261]
+NotebookOptionsPosition[      8033,        213]
+NotebookOutlinePosition[      8511,        231]
+CellTagsIndexPosition[      8468,        228]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -22,16 +22,67 @@ Cell[BoxData[{
  RowBox[{
   RowBox[{"Beep", "[", "]"}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{"$TestVar", "=", "\"\<test1\>\""}], ";"}]}], "Input",
+  RowBox[{"$TestVar", "=", 
+   RowBox[{"FilePacletResource", "[", 
+    RowBox[{
+    "\"\<BMathematicaEnvironment\>\"", ",", " ", "\"\<b3m2a1-tools\>\""}], 
+    "]"}]}], ";"}]}], "Input",
  InitializationCell->True,
  CellChangeTimes->{{3.745095271847885*^9, 3.7450952730878706`*^9}, 
    3.7450959867439723`*^9, {3.745096197082779*^9, 3.7450962042846966`*^9}, 
    3.745096388400628*^9, {3.745096418799469*^9, 3.745096423799474*^9}, {
    3.7450978096315084`*^9, 3.7450978132817173`*^9}, {3.7450978845064917`*^9, 
    3.745097886368471*^9}, {3.745098233038148*^9, 3.745098249580241*^9}, {
-   3.7450998645771484`*^9, 
-   3.745099874669034*^9}},ExpressionUUID->"f900cb12-cde5-427b-b22b-\
+   3.7450998645771484`*^9, 3.745099874669034*^9}, {3.745104050455777*^9, 
+   3.745104078318473*^9}, {3.745104203634189*^9, 
+   3.7451042043221807`*^9}},ExpressionUUID->"f900cb12-cde5-427b-b22b-\
 5fd26633c838"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Get", "[", 
+  RowBox[{"\"\<CustomKeyEvents`\>\"", ",", 
+   RowBox[{"Path", "\[Rule]", " ", 
+    RowBox[{"PacletResource", "[", 
+     RowBox[{
+     "\"\<BMathematicaEnvironment\>\"", ",", " ", "\"\<b3m2a1-tools\>\""}], 
+     "]"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.745104172197432*^9, 3.7451041762263947`*^9}, {
+  3.745104215976482*^9, 3.745104284053466*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"1df3704f-24b2-4acb-b915-1eb4e54a4d25"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Get","noopen",
+   "\"Cannot open \\!\\(\\*RowBox[{\\\"\\\\\\\"CustomKeyEvents`\\\\\\\"\\\"}]\
+\\).\"",2,14,3,17528976864779589394,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.7451042917258415`*^9},
+ CellLabel->
+  "During evaluation of \
+In[14]:=",ExpressionUUID->"aee1194d-eeec-4a21-9c86-d53af8a58181"],
+
+Cell[BoxData["$Failed"], "Output",
+ CellChangeTimes->{3.7451042917478304`*^9},
+ CellLabel->"Out[14]=",ExpressionUUID->"64ed0640-d19c-4711-a83d-a3bf3f715c69"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"PacletResource", "[", 
+  RowBox[{
+  "\"\<BMathematicaEnvironment\>\"", ",", " ", "\"\<b3m2a1-tools\>\""}], 
+  "]"}]], "Input",
+ CellLabel->"In[13]:=",ExpressionUUID->"4c1c8544-764f-40d7-8f15-fa697e2a3ce3"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\Brendan\\\\AppData\\\\Roaming\\\\Mathematica\
+\\\\Paclets\\\\Repository\\\\BMathematicaEnvironment-1\\\\Resources\\\\Github\
+\\\\b3m2a1\\\\mathematica-tools\"\>"], "Output",
+ CellChangeTimes->{3.7451042070450974`*^9},
+ CellLabel->"Out[13]=",ExpressionUUID->"52233f77-506f-47a8-81d3-71b2e07b3df0"]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -61,12 +112,31 @@ BMathematicaEnvironment-1"]], "}"}]], "Output",
  CellLabel->"Out[2]=",ExpressionUUID->"b1010583-d730-4c3a-91d0-40b77be09690"]
 }, Open  ]],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{"PacletUninstall", "[", "\"\<BMathematicaEnvironment\>\"", 
   "]"}]], "Input",
  CellChangeTimes->{{3.745097593720248*^9, 3.7450976125320673`*^9}, {
    3.7450980949298525`*^9, 3.745098129406502*^9}, 3.7450986557009544`*^9},
- CellLabel->"In[1]:=",ExpressionUUID->"d758f6da-9aab-47c2-886b-a5573d55b37e"],
+ CellLabel->"In[9]:=",ExpressionUUID->"d758f6da-9aab-47c2-886b-a5573d55b37e"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "PacletUninstall","notfound",
+   "\"Paclet \
+\\!\\(\\*RowBox[{\\\"\\\\\\\"BMathematicaEnvironment\\\\\\\"\\\"}]\\) not \
+found.\"",2,9,2,17528976864779589394,"Local","PacletManager`PacletUninstall"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.7451041100336914`*^9},
+ CellLabel->
+  "During evaluation of \
+In[9]:=",ExpressionUUID->"69183fd7-454d-435a-b817-97f49b0a4436"],
+
+Cell[BoxData["$Failed"], "Output",
+ CellChangeTimes->{3.7451041100567217`*^9},
+ CellLabel->"Out[9]=",ExpressionUUID->"0173797e-0e9c-4ddb-a5ee-73e5271b2529"]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -77,7 +147,7 @@ Cell[BoxData[{
  RowBox[{"RebuildPacletData", "[", "]"}]}], "Input",
  CellChangeTimes->{{3.745097593720248*^9, 3.7450976125320673`*^9}, {
    3.7450980949298525`*^9, 3.745098129406502*^9}, 3.7450986557009544`*^9},
- CellLabel->"In[2]:=",ExpressionUUID->"349bf692-5126-4d09-b357-8f492eec8d84"],
+ CellLabel->"In[10]:=",ExpressionUUID->"349bf692-5126-4d09-b357-8f492eec8d84"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -91,23 +161,27 @@ management", "Loading" -> "Startup",
    "Extensions" -> {{
      "Kernel", "Root" -> ".", "Context" -> {"BMathematicaEnvironment`"}}, {
      "FrontEnd", "Prepend" -> True}, {
-     "Resource", "Root" -> "Resources", "Resources" -> {"Templates"}}}, 
-   "Location" -> 
+     "Resource", "Root" -> "Resources", 
+      "Resources" -> {
+       "Templates", "Github", {
+        "b3m2a1-tools", "Github/b3m2a1/mathematica-tools"}}}}, "Location" -> 
    "C:\\Users\\Brendan\\AppData\\Roaming\\Mathematica\\Paclets\\Repository\\\
 BMathematicaEnvironment-1"]]], "Output",
- CellChangeTimes->{3.7451001335610795`*^9},
- CellLabel->"Out[2]=",ExpressionUUID->"d568809f-6075-4e38-b591-a0519f93ebd0"]
+ CellChangeTimes->{3.7451001335610795`*^9, 3.7451041151546326`*^9},
+ CellLabel->"Out[10]=",ExpressionUUID->"c9b71442-0bb0-4ea6-a8d5-79452ad0d0f4"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData["$TestVar"], "Input",
  CellChangeTimes->{{3.7450997998810415`*^9, 3.745099803123949*^9}},
- CellLabel->"In[4]:=",ExpressionUUID->"900b4555-f7b1-45b7-8209-01b6b6589d5b"],
+ CellLabel->"In[12]:=",ExpressionUUID->"900b4555-f7b1-45b7-8209-01b6b6589d5b"],
 
-Cell[BoxData["\<\"test1\"\>"], "Output",
- CellChangeTimes->{3.7451001411212626`*^9},
- CellLabel->"Out[4]=",ExpressionUUID->"0ca2bf04-f412-4d31-8db6-08ca0cf973d3"]
+Cell[BoxData["\<\"C:\\\\Users\\\\Brendan\\\\AppData\\\\Roaming\\\\Mathematica\
+\\\\Paclets\\\\Repository\\\\BMathematicaEnvironment-1\\\\Resources\\\\Github\
+\\\\b3m2a1\\\\mathematica-tools\"\>"], "Output",
+ CellChangeTimes->{3.7451001411212626`*^9, 3.7451041225545483`*^9},
+ CellLabel->"Out[12]=",ExpressionUUID->"bdeefbab-81c2-4716-97db-0a43533ded48"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -156,25 +230,38 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 667, 13, 62, "Input",ExpressionUUID->"f900cb12-cde5-427b-b22b-5fd26633c838",
+Cell[558, 20, 888, 18, 62, "Input",ExpressionUUID->"f900cb12-cde5-427b-b22b-5fd26633c838",
  InitializationCell->True],
 Cell[CellGroupData[{
-Cell[1250, 37, 267, 4, 37, "Input",ExpressionUUID->"cb633382-177c-4e6e-a859-18b272104a7e"],
-Cell[1520, 43, 826, 17, 56, "Output",ExpressionUUID->"b1010583-d730-4c3a-91d0-40b77be09690"]
-}, Open  ]],
-Cell[2361, 63, 323, 5, 37, "Input",ExpressionUUID->"d758f6da-9aab-47c2-886b-a5573d55b37e"],
-Cell[CellGroupData[{
-Cell[2709, 72, 428, 7, 62, "Input",ExpressionUUID->"349bf692-5126-4d09-b357-8f492eec8d84"],
-Cell[3140, 81, 821, 17, 56, "Output",ExpressionUUID->"d568809f-6075-4e38-b591-a0519f93ebd0"]
+Cell[1471, 42, 471, 10, 37, "Input",ExpressionUUID->"1df3704f-24b2-4acb-b915-1eb4e54a4d25"],
+Cell[1945, 54, 361, 9, 31, "Message",ExpressionUUID->"aee1194d-eeec-4a21-9c86-d53af8a58181"],
+Cell[2309, 65, 157, 2, 56, "Output",ExpressionUUID->"64ed0640-d19c-4711-a83d-a3bf3f715c69"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3998, 103, 180, 2, 37, "Input",ExpressionUUID->"900b4555-f7b1-45b7-8209-01b6b6589d5b"],
-Cell[4181, 107, 162, 2, 56, "Output",ExpressionUUID->"0ca2bf04-f412-4d31-8db6-08ca0cf973d3"]
+Cell[2503, 72, 229, 5, 37, "Input",ExpressionUUID->"4c1c8544-764f-40d7-8f15-fa697e2a3ce3"],
+Cell[2735, 79, 329, 4, 56, "Output",ExpressionUUID->"52233f77-506f-47a8-81d3-71b2e07b3df0"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4380, 114, 314, 6, 37, "Input",ExpressionUUID->"e96b7705-9e1a-4300-a825-c8973bc24e0f"],
-Cell[4697, 122, 393, 10, 31, "Message",ExpressionUUID->"0264de13-39ca-4dc0-8c80-f75cd0d222ae"],
-Cell[5093, 134, 156, 2, 56, "Output",ExpressionUUID->"7cacca04-6f4e-4cb8-aade-839f083e3183"]
+Cell[3101, 88, 267, 4, 37, "Input",ExpressionUUID->"cb633382-177c-4e6e-a859-18b272104a7e"],
+Cell[3371, 94, 826, 17, 56, "Output",ExpressionUUID->"b1010583-d730-4c3a-91d0-40b77be09690"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4234, 116, 323, 5, 37, "Input",ExpressionUUID->"d758f6da-9aab-47c2-886b-a5573d55b37e"],
+Cell[4560, 123, 420, 10, 31, "Message",ExpressionUUID->"69183fd7-454d-435a-b817-97f49b0a4436"],
+Cell[4983, 135, 156, 2, 56, "Output",ExpressionUUID->"0173797e-0e9c-4ddb-a5ee-73e5271b2529"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5176, 142, 429, 7, 62, "Input",ExpressionUUID->"349bf692-5126-4d09-b357-8f492eec8d84"],
+Cell[5608, 151, 929, 19, 56, "Output",ExpressionUUID->"c9b71442-0bb0-4ea6-a8d5-79452ad0d0f4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6574, 175, 181, 2, 37, "Input",ExpressionUUID->"900b4555-f7b1-45b7-8209-01b6b6589d5b"],
+Cell[6758, 179, 353, 4, 56, "Output",ExpressionUUID->"bdeefbab-81c2-4716-97db-0a43533ded48"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7148, 188, 314, 6, 37, "Input",ExpressionUUID->"e96b7705-9e1a-4300-a825-c8973bc24e0f"],
+Cell[7465, 196, 393, 10, 31, "Message",ExpressionUUID->"0264de13-39ca-4dc0-8c80-f75cd0d222ae"],
+Cell[7861, 208, 156, 2, 56, "Output",ExpressionUUID->"7cacca04-6f4e-4cb8-aade-839f083e3183"]
 }, Open  ]]
 }
 ]
